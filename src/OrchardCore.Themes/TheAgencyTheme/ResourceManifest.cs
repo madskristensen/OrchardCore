@@ -24,6 +24,11 @@ namespace OrchardCore.Themes.TheAgencyTheme
                 .SetDependencies("TheAgencyTheme")
                 .SetUrl("~/TheAgencyTheme/Styles/bootstrap-oc.min.css", "~/TheAgencyTheme/Styles/bootstrap-oc.css")
                 .SetVersion("1.0.0");
+                
+            manifest
+                .DefineStyle("header")
+                .SetCdn("https://mycdn.com/theheader.css")
+                .SetVersion("0.5.0");
         }
     }
 }
