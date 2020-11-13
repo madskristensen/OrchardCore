@@ -27,8 +27,8 @@ namespace OrchardCore.Themes.TheAgencyTheme
                 
             manifest
                 .DefineStyle("header")
-                .SetCdn("https://mycdn.com/theheader.css")
-                .SetVersion("0.5.0");
+                .SetCdn("https://mycdn.com/siteheader.css")
+                .SetVersion("0.9.0");
         }
     }
 }
